@@ -1,12 +1,4 @@
-function eatFood(){
-    console.log('do hand wash');
-    console.log('take the plate');
-    console.log('sit and eat the food');
-}
-
-eatFood();
-
-
+// ---function parameter---
 
 function square(number){
 
@@ -19,6 +11,9 @@ console.log('square of the given number is:', square);
 }
 
 square(5);
+
+
+// -----another example-----
 
 
 function add(num1, num2){

@@ -1,36 +1,36 @@
 const numbers = [1,2,3,4,5,6,7,8,9];
 
-// console.log(numbers);
+console.log(numbers);
 
-// numbers.reverse();
+numbers.reverse();
 
-// console.log(numbers);
+console.log(numbers);
 
 // ---or----
 
-// const reversed = numbers.reverse();
-// console.log(reversed);
+const reversed = numbers.reverse();
+console.log(reversed);
 
 
  
 // // ----or-----
 
-// const reverse_numbers = [];
+const reverse_numbers = [];
 
-// for(let i=0; i< numbers.length; i++){
+for(let i=0; i< numbers.length; i++){
 
-//     const num = numbers[i];
-//     reversed_numbers.unshift(num);
-// }
+    const num = numbers[i];
+    reversed_numbers.unshift(num);
+}
 
 
 // ----or----
-// for(let i= numbers.length -1; i>=0; i--){
+for(let i= numbers.length -1; i>=0; i--){
 
-//     const num = numbers[i];
-// console.log(num);
+    const num = numbers[i];
+console.log(num);
 
-// }
+}
 
 // -----or---
 const rev_rev_numbers =[];
